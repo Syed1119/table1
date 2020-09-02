@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+}
+
+html,body
+{   
+    overflow-x: hidden; 
+}
+
+header{
+  border: solid;
+  width: 100vw;
+  height: 73vh;
+  background-image: /*linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1)),*/ url('images/1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#title, h1{
+      color: black;
+      padding-top: 20px;
+      text-align: center;
+      font-weight:bold;
+      font-size: 42px;
+      width: 100%;
+}
+#title, h2{
+  width: 100%;
+      color: black;
+      text-align: center;
+      font-weight:bold;
+}
+
+#logo1 img{
+  float: left;
+  position: absolute;
+  width: 150px; 
+  height: 150px;
+  border-radius: 60px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+#logo2 img{
+  float: right;
+  position: relative;
+  top: -150px;
+  right: 20px;
+  width: 220px; 
+  height: 100px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2)
+}
+
+#marquee-bar{
+  padding-top: 40vh;
+}
+body{
+    background-color: #eee; 
+}
+table th , table td{
+    text-align: center;
+}
+
+td{
+  background-color: white;
+}
+tr h4{
+  font-weight: 520;
+  font-size: 25px;
+}
+tr td:first-child{
+  width: 6%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+th {
+  background: #333;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 520;
+
+}
+
+.pagination {
+  margin: 0;
+}
+
+.pagination li:hover{
+    cursor: pointer;
+}
+
+.header_wrap {
+  padding:30px 0;
+  width: 100%;
+}
+.num_rows {
+  display: flex;
+  padding-top: 10px;
+  width: 40%;
+}
+.num_rows p{
+  font-weight: bold;
+  padding-top: 8px;
+}
+.tb_search:hover{
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+.tb_search{
+  margin-top: 10vh;
+  width: 100%;
+}
+.pagination-container {
+  width: 100%;
+  float:left;
+}
+
+.rows_count {
+  width: 20%;
+  float:right;
+  text-align:right;
+  color: #999;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1450px) {
+
+#marquee-bar{
+  padding-top: 30%;
+}
+ .tb_search{
+  margin-top: 10%;
+  width: 100%;
+}
+#title, h1{
+      color: black;
+      padding-top: 20px;
+      text-align: center;
+      font-weight:bold;
+      font-size: 72px;
+      width: 100%;
+}
+#title, h2{
+  width: 100%;
+      color: black;
+      text-align: center;
+      font-weight:bold;
+      font-size: 62px;
+}
+
+#logo1 img{
+  float: left;
+  position: absolute;
+  width: 250px; 
+  height: 250px;
+  border-radius: 60px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+#logo2 img{
+  float: right;
+  position: relative;
+  top: -250px;
+  right: 20px;
+  width: 310px; 
+  height: 160px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2)
+}
+
+}
+/*
+@media screen and (max-width: 1440px) {
+  #marquee-bar{
+    position: fixed;
+  padding-top: 35%;
+}
+ 
+}*/
